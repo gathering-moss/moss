@@ -41,7 +41,8 @@ navigation = [
     { url = "$BASE_URL/about", title = "About" },
 ]
 social_icons = [
-    { url = "$BASE_URL/atom.xml", icon = "RSS" },
+    { url = "https://www.linkedin.com/in/drouinp/", icon = "linkedin" },
+    { url = "https://github.com/gathering-moss", icon = "github" },
 ]
 date_format = "%d %b %Y"
 language_direction = "auto"
