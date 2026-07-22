@@ -16,7 +16,7 @@ form_title = "Get in touch"
 form_description = "Have a question or a project in mind? Send a message below."
 # Replace with Formspree endpoint, e.g. https://formspree.io/f/abcdwxyz
 # Create one at https://formspree.io/forms after signing up.
-form_action = "https://formspree.io/f/YOUR_FORM_ID"
+form_action = "https://formspree.io/f/mqerdbpn"
 form_button_text = "Send message"
 +++
 
