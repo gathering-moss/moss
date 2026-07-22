@@ -21,7 +21,7 @@ form_action = "https://formspree.io/f/mqerdbpn"
 form_button_text = "Send message"
 +++
 
-## My services
+## Typical projects
 
 I work on three types of projects:
 
