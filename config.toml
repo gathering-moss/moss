@@ -27,7 +27,7 @@ theme = "catppuccin-mocha"
 
 [extra]
 logo_image = "images/logo.svg"
-social_media_share_image = "/images/01.jpg"
+social_media_share_image = "/images/moss.jpg"
 disqus_identifier = ""
 google_analytics = ""
 twitter_handle = ""
