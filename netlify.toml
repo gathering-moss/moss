@@ -1,9 +1,14 @@
 [build]
 command = "zola build"
 publish = "public"
+ignore = "git update-index --skip-worktree .gitmodules || true"
 
 [build.environment]
 ZOLA_VERSION = "0.18.0"
+
+[git]
+# Disable submodule initialization
+submodules = false
 
 [context.production]
 command = "zola build"
