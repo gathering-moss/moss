@@ -1,0 +1,58 @@
+# The URL the site will be built for
+base_url = "http://127.0.0.1:1111"
+
+title = "Moss Systems"
+author = ""
+description = ""
+
+theme = "vonge-zola-theme"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+logo_image = "images/logo.svg"
+social_media_share_image = "/images/01.jpg"
+disqus_identifier = ""
+google_analytics = ""
+twitter_handle = ""
+
+author_image = '/images/avatar.jpg'
+
+navigation = [
+    { url = "$BASE_URL", title = "Home" },
+    { url = "$BASE_URL/services", title = "Services" },
+    { url = "$BASE_URL/work", title = "Work" },
+    { url = "$BASE_URL/about", title = "About" },
+]
+social_icons = [
+    { url = "$BASE_URL/atom.xml", icon = "RSS" },
+]
+date_format = "%d %b %Y"
+language_direction = "auto"
+keywords = ["keyword1", "keyword2", "keyword3"]
+
+[extra.footer]
+menu = [
+    { url = "$BASE_URL", title = "Home" },
+    { url = "$BASE_URL/services/", title = "Services" },
+    { url = "$BASE_URL/work/", title = "Work" },
+    { url = "$BASE_URL/about/", title = "About" },
+]
+
+# Homepage content blocks now live in content/_index.md's front matter.

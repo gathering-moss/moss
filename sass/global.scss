@@ -1,0 +1,39 @@
+// Everforest Light (medium contrast) — overrides the theme's default
+// color-scheme variables. Must be set before the theme's Sass is imported,
+// since its variables use `!default` and only take once, first-write-wins.
+$primary-color: #8da101; // green
+// Theme only ever uses secondary-color paired with primary-color in
+// gradients — set equal to primary so those render as flat green.
+$secondary-color: $primary-color;
+$white: #fffbef; // bg0 hard
+$dark: #45443c; // dark hard bg_yellow — brown
+$gray: #939f91; // grey1
+$light-gray: #f4f0d9; // bg1
+$blue-gray: #e0dcc7; // bg4
+
+$background-color: #f3ead3; // bg0 soft
+$background-color-alt: $white;
+
+$text-color: $dark;
+
+$heading-font-color: $text-color;
+
+$link-color: $text-color;
+$link-color-hover: $text-color;
+
+$button-color: $background-color-alt;
+$button-background-color: $primary-color;
+$button-background-hover: darken($primary-color, 5%);
+
+$border-color: $blue-gray;
+
+$hr-color: $text-color;
+$tr-color: #f4f0d9;
+
+$syntax-highlighting-background: #efebd4;
+
+// Typeface — Fraunces (serif), loaded via Google Fonts in head.html.
+$base-font-family: "Fraunces", Georgia, "Times New Roman", serif;
+$heading-font-family: "Fraunces", Georgia, "Times New Roman", serif;
+
+@import "../themes/vonge-zola-theme/sass/css/global";

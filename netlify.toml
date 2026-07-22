@@ -1,0 +1,15 @@
+[build]
+command = "zola build"
+publish = "public"
+
+[build.environment]
+ZOLA_VERSION = "0.18.0"
+
+[context.production]
+command = "zola build"
+
+[context.deploy-preview]
+command = "zola build --base-url $DEPLOY_PREVIEW_URL"
+
+[context.branch-deploy]
+command = "zola build --base-url $DEPLOY_URL"
