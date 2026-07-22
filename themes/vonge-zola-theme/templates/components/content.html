@@ -1,0 +1,13 @@
+{% macro content(content_html="", content_md="", page_content="") %}
+<div class="container">
+{% if content_html != "" %}
+  <div class="page animate">{{ content_html | safe }}</div>
+{% elif content_md != "" %}
+  <div class="page animate">{{ content_md | markdown | safe }}</div>
+{% elif page_content != "" %}
+  <div class="page animate">{{ page_content | safe }}</div>
+{% else %}
+{{   throw(message="Neither 'content_html', 'content_md', nor the page body are set for content block") }}
+{% endif %}
+</div>
+{% endmacro content %}
