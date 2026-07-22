@@ -1,5 +1,7 @@
 +++
 title = "Home"
+[extra]
+image = "/images/moss.jpg"
 [[extra.content_blocks]]
 block = "hero"
 title = "Moss Systems"
