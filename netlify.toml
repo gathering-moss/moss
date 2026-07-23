@@ -14,7 +14,7 @@ submodules = false
 command = "zola build"
 
 [context.deploy-preview]
-command = "zola build --base-url $DEPLOY_PREVIEW_URL"
+command = "zola build --base-url ${DEPLOY_PREVIEW_URL:-https://moss.systems}"
 
 [context.branch-deploy]
 command = "zola build --base-url $DEPLOY_URL"
