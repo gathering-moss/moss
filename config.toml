@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://moss.systems"
 
-title = "Moss Systems"
+title = "moss.systems"
 author = ""
 description = ""
 
@@ -27,7 +27,7 @@ theme = "catppuccin-mocha"
 
 [extra]
 logo_image = "images/logo.svg"
-social_media_share_image = "/images/01.jpg"
+social_media_share_image = "/images/moss.jpg"
 disqus_identifier = ""
 google_analytics = ""
 twitter_handle = ""
@@ -41,7 +41,8 @@ navigation = [
     { url = "$BASE_URL/about", title = "About" },
 ]
 social_icons = [
-    { url = "$BASE_URL/atom.xml", icon = "RSS" },
+    { url = "https://www.linkedin.com/in/drouinp/", icon = "linkedin" },
+    { url = "https://github.com/gathering-moss", icon = "github" },
 ]
 date_format = "%d %b %Y"
 language_direction = "auto"
