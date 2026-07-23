@@ -97,20 +97,20 @@
 
   &__title {
     margin-bottom: 20px;
-    font-size: 72px;
+    font-size: 64px;
     color: $heading-font-color;
 
     @media only screen and (max-width: 1130px) {
-      font-size: 54px;
+      font-size: 64px;
     }
 
     @media only screen and (max-width: $desktop) {
-      font-size: 38px;
+      font-size: 48px;
       margin-bottom: 24px;
     }
 
     @media only screen and (max-width: $mobile) {
-      font-size: 32px;
+      font-size: 36px;
     }
   }
 
