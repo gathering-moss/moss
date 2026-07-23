@@ -8,7 +8,7 @@ title = "Services"
 block = "page-image"
 image = "/images/services.jpg"
 image_alt = "Tree roots in Länsi-Herttoniemi, Helsinki, Finland"
-caption_html = "Tree roots — Safa Hovinen, <a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener\">CC BY 2.0</a>"
+caption_html = "Tree roots<br>Safa Hovinen, <a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener\">CC BY 2.0</a>"
 [[extra.content_blocks]]
 block = "content"
 [[extra.content_blocks]]
