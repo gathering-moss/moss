@@ -3,14 +3,14 @@
 <div class="container">
   <div class="row">
     <div class="col col-12">
-      <div class="{{c}}-wrap animate">
+      <figure class="{{c}}-wrap animate">
         <div class="{{c}}">
           <img loading="lazy" src="{{ get_url(path=image) }}" alt="{{ image_alt }}">
         </div>
         {% if caption_html != "" %}
-        <div class="{{c}}__caption">{{ caption_html | safe }}</div>
+        <figcaption class="{{c}}__caption">{{ caption_html | safe }}</figcaption>
         {% endif %}
-      </div>
+      </figure>
     </div>
   </div>
 </div>
