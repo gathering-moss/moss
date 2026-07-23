@@ -4,7 +4,7 @@ title = "Home"
 image = "/images/moss.jpg"
 [[extra.content_blocks]]
 block = "hero"
-title = "Moss Systems"
+title = "moss.systems"
 description_html = "<strong><em>Helping mission-driven orgs understand what's needed & what's realistic to build.</em></strong><br><br>I'm Moss, an experienced UX researcher & product strategist with a deep understanding of mission-driven work, institutional complexity, and developer communities."
 image = "/images/moss.jpg"
 image_alt = "Moss growing on the forest floor"

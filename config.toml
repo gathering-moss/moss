@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://moss.systems"
 
-title = "Moss Systems"
+title = "moss.systems"
 author = ""
 description = ""
 
