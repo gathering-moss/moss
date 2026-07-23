@@ -3,7 +3,7 @@ title = "Home"
 [[extra.content_blocks]]
 block = "hero"
 title = "Moss Systems"
-description_html = "Helping mission-driven orgs understand what's need & what's realistic to build."
+description_html = "Helping mission-driven orgs understand what's needed & what's realistic to build."
 image = "/images/moss.jpg"
 image_alt = "Moss growing on the forest floor"
 image_caption_html = "Moss on the forest floor — Matthew T Rader, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>"
